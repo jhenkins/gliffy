@@ -1,0 +1,17 @@
+A really simple MediaWiki extension to allow the embedding of Gliffy diagrams
+
+INSTALL
+
+Create a directory 'Gliffy' in your MediaWiki extensions/ subdirectory
+Copy the Gliffy.php file into it
+Add the following line to your LocalSettings.php:
+
+require_once( "$IP/extensions/Gliffy/Gliffy.php" );
+
+USAGE
+
+1. Create a Gliffy drawing
+2. Publish it and record the 'Drawing ID', which is a number
+3. Add the tag <gliffy did=number /> to your wiki page
+
+
