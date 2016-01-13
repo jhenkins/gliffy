@@ -25,7 +25,7 @@ function gliffyRender( $input, $args, $parser) {
   if( isset( $args['did'] ) ) {
     $did= $args['did'];
     $html = <<<HTML
-<a href="https://www.gliffy.com/gliffy/#d=$did" target="_blank">edit with Gliffy</a>
+<a href="https://www.gliffy.com/go/html5/$did" target="_blank">edit with Gliffy</a>
 <br/>
 <script src="http://www.gliffy.com/diagramEmbed.js" type="text/javascript"> </script>
 <script type="text/javascript"> gliffy_did = "$did"; embedGliffy(); </script>
